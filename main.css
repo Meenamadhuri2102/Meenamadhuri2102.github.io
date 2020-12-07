@@ -1,0 +1,56 @@
+h1{
+    
+ text-align:center;
+ background-color:#80CBC4;
+ padding : 12px;
+ border : solid 2px #1b00ff;
+ font-family: Algerian;
+ animation : abc 10s;
+}
+@keyframes abc {
+    0% {font-family : Bernard MT Condensed;}
+    0% {background-color:rgb(54, 35, 161);}
+    20% {font-family: cursive;}
+    20% {background-color: darkorchid;}
+    40% {font-family: Comic Sans MS;}
+    40% {background-color: mediumvioletred;}
+    60% {font-family: Brush Script MT;}
+    60% {background-color: purple;}
+}
+
+.playerCardContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.playerCards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 300px;
+    border: 1px solid black;
+
+}
+
+
+.dealerCardContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dealerCards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 300px;
+    border: 1px solid black;
+
+}
