@@ -1,0 +1,102 @@
+h1{
+    
+ text-align:center;
+ background-color:#80CBC4;
+ padding : 12px;
+ border : solid 2px #1b00ff;
+ font-family: Algerian;
+ animation : abc 10s;
+}
+@keyframes abc {
+    0% {font-family : Bernard MT Condensed;}
+    0% {background-color:rgb(54, 35, 161);}
+    20% {font-family: cursive;}
+    20% {background-color: darkorchid;}
+    40% {font-family: Comic Sans MS;}
+    40% {background-color: mediumvioletred;}
+    60% {font-family: Brush Script MT;}
+    60% {background-color: purple;}
+}
+/*
+#dealer-cards {
+padding: 20px 20px;
+width: 180px;
+height: 250px;
+box-shadow:2px 2px
+border-radius: 15px;
+box-sizing: border-box;
+}*/
+#new-game-button{
+    background-color: olivedrab;
+
+}
+body{
+    background-image: url(https://wallpapertag.com/wallpaper/full/0/c/f/82053-full-size-blur-background-3840x2160.jpg);
+   
+}
+#new-game-button{
+    background-color: rgb(68, 0, 255);
+    padding : 5px 5px;
+    border: 2px solid black;
+    color: white;
+    }
+    #new-game-button:hover {
+        background-color: aqua;
+        cursor: pointer;  
+        color: black;
+    }
+
+
+#hit-button{
+    background-color: rgb(68, 0, 255);
+    padding : 5px 10px;
+    border: 2px solid black;
+    color: white;
+}
+#hit-button:hover{
+    background-color: aqua;
+        cursor: pointer;
+        color: black;
+}
+#stand-button{
+    background-color: rgb(68, 0, 255);
+    padding : 5px 10px;
+    border: 2px solid black;
+    color: white;
+}
+#stand-button:hover{
+    background-color: aqua;
+        cursor: pointer;
+        color: black;
+}
+
+#player-money{
+    text-align: center;
+    font-family: Bernard MT Condensed;
+    background-color: cornsilk;
+    padding: 5px 5px;
+    color: maroon ;
+    text-shadow: black;
+}
+#bet{
+    text-align: center;
+    border: solid black;
+    font-size: large;
+}
+#player-score{
+    text-align: center;
+    font-family: Bernard MT Condensed;
+    
+    color: maroon ;
+}
+#dealer-score{
+    text-align: center;
+    font-family: Bernard MT Condensed;
+    
+    color: maroon ;
+}
+#message-board{
+    text-align: center;
+    font-family: Bernard MT Condensed;   
+    color: blue
+}

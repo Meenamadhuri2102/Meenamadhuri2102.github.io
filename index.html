@@ -1,0 +1,37 @@
+<doctype html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>BlackJack</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+        </head>
+<body>
+     <h1>Blackjack</h1><br>
+     Cards:
+     <div id="dealer-cards"></div>
+     <br>
+     <div id="player-cards"></div>
+     <br>
+     <input type='button' id='new-game-button' value='New Game' onclick='newGame();'/>
+     <input type='button' id='hit-button' value='Hit' onclick='hit();'/>
+     <input type='button' id='stand-button' value='Stand' onclick='stand();'/>
+     <br>
+     <br>
+     <div id=player-money></div>
+     Bet: 
+     <input type='number' id='bet' value='10' min='1'/>
+     <br>
+     <br>
+     Score:
+     <div id="player-score"></div>
+     <div id="dealer-score"></div>
+     <br>
+     <h2 id="message-board"></h2>
+     <script src="blackJackV2.0.js">
+     </script>
+</body>
+   
+</html>
